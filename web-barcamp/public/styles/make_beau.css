@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Open Sans' , sans-serif;
+}
+
+body {
+    margin:5px;
+    font-family: 'Open Sans' , sans-serif;
+    background-color: #e9ecef;
+    /*color:rgba(0,1,0,0.5);   text color on body */
+}
+
+.btn_login{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_signup{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_update{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_upload{
+    margin:2px 0;
+    border: 3px solid lightblue;
+    width: 100px;
+}
+
+.btn_signout , .btn_delacc{
+    margin:2px 0;
+    border: 3px solid lightgoldenrodyellow;
+    width: 100px;
+}
+
+input.name{
+    border: 1px solid lightblue;
+}
+
+input.phone{
+    border: 1px solid lightblue;
+}
+
+.footer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:100%;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.firelogo {
+    position: relative;
+}
+
+.head {
+    margin:5px 0;
+}
+
+.container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*.input {
+    border: solid 3px transparent; 
+     box-shadow: inset 0 0 0 1px black;
+  }*/
+
+  .btn_gp{
+      margin-bottom: 10px;
+  }
+
+input.inputEmail4:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+input.email{
+    margin: 5px 0 5px 0;
+    border: 2px solid lightgoldenrodyellow;
+}
+
+
+.shadow_laxz{
+    font-family: 'Open Sans' , sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 18px;
+}
+    
+.shadow_laxz_foot{
+    font-family: 'Open Sans' , sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 14px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+p.card-text{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12.5px;
+}
+
+.card-header{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.card-footer{
+    padding: 2px 10px 2px 10px;
+}
+
+
+.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+
+.style10 {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}
